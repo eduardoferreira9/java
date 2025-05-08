@@ -6,6 +6,7 @@ class Pessoa {
     public char sexo;
     public String cpf;
 
+
     void exibirDados() {
         System.out.println("Nome: " + this.nome);
         System.out.println("Email: " + this.email);
