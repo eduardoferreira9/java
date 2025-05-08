@@ -59,6 +59,10 @@ public class Programa {
         Produto p5 = new Produto(5, "Feijão", 8.75, 2);
         Produto p6 = new Produto(6, "Pasta de dente", 4.40, 3);
         Produto p7 = new Produto(7, "Detergente", 2.30, 4);
+        Produto p8 = new Produto(8, "Perfume", 190.30, 1);
+        Produto p9 = new Produto(9, "Carne", 20.30, 1);
+        Produto p10 = new Produto(10, "Condicionador", 6.30, 2);
+        
 
         carrinho.adicionarProduto(p1);
         carrinho.adicionarProduto(p2);
@@ -67,6 +71,9 @@ public class Programa {
         carrinho.adicionarProduto(p5);
         carrinho.adicionarProduto(p6);
         carrinho.adicionarProduto(p7);
+        carrinho.adicionarProduto(p8);
+        carrinho.adicionarProduto(p9);
+        carrinho.adicionarProduto(p10);
 
         System.out.println("Produtos no carrinho:");
         carrinho.exibeCarrinho();
