@@ -178,4 +178,19 @@ public class Main {
         Secretario secretario = new Secretario();
 
         // Classe professor
-        professor.adicionarProfessor("Fábio", "
+        professor.adicionarProfessor("Fábio", " fabio@unip.com", "16 99207-9573", 38, 'M', "5037446805", 5.013, "Lógica matemática");
+        professor.exibirDados();
+
+        System.out.println("======================================");
+
+        // Classe aluno
+        aluno.adicionarAluno("Eduardo", "ef09042@gmail.com", "17 99183-3981", 19, 'M', "93938985100", "R024FI0", 9.3);
+        aluno.exibirDados();
+
+        System.out.println("======================================");
+
+        // Classe secretario
+        secretario.adicionarSecretario("José", "jose@secretario.com", "16 992134-9573", 34, 'M', "503446805", 10.313);
+        secretario.exibirDados();
+    }
+}
