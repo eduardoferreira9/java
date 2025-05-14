@@ -44,3 +44,9 @@ public class Main {
         }
     }
 }
+
+        //----------------- Resposta dos questionários -----------------//
+
+        // 1. Definimos primeiramente que um animal pode emitir som na classe animal, e herdamos esse métodos para as outras clases, assim fazendo o som funcionar de acordo com a nossa classe.
+        // 2. Porque elas são subclasses
+        // 3. Basta criar uma nova subclasse derivada de Animal e sobreescrever emitirSom();.
